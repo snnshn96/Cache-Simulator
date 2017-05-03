@@ -9,7 +9,7 @@ A) < cachesize > is the total size of the cache in bytes. This number will be a 
 B) < associativity > is one of:
   direct - simulate a direct mapped cache.
   assoc - simulate a fully associative cache.
-  assoc:n - simulate an n âˆ’ way associative cache. n will be a power of 2.
+  assoc:n - simulate an n way associative cache. n will be a power of 2.
 C) < blocksize > is a power of 2 integer that specifies the size of the cache block in bytes.
 D) < tracefile > is the name of the trace file.
 
