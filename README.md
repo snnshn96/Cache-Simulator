@@ -5,14 +5,12 @@ This program implements a cache simulator to evaluate different configurations o
 Usage:
 ./first <cache size> <associativity> <block size> <trace file>
 where:
-A) < cachesize > is the total size of the cache in
-bytes. This number will be a power of 2.
+A) < cachesize > is the total size of the cache in bytes. This number will be a power of 2.
 B) < associativity > is one of:
   direct - simulate a direct mapped cache.
   assoc - simulate a fully associative cache.
   assoc:n - simulate an n âˆ’ way associative cache. n will be a power of 2.
-C) < blocksize > is a power of 2 integer that speci
-fies the size of the cache block in bytes.
+C) < blocksize > is a power of 2 integer that specifies the size of the cache block in bytes.
 D) < tracefile > is the name of the trace file.
 
 The structure of my cache is as follows:
